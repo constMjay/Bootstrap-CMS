@@ -1,0 +1,10 @@
+.react-fragment {
+  .footer {
+    &__card {
+      height: 100%;
+      .card-footer {
+        height: 100%;
+      }
+    }
+  }
+}

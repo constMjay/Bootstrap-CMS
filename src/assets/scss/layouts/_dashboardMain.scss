@@ -1,0 +1,76 @@
+@import "../abstracts/variables";
+.main {
+  .dashboardMainContent {
+    &__left {
+      .list-group {
+        div {
+          display: flex;
+          align-items: center;
+
+          &.active {
+            a {
+              color: $white;
+            }
+          }
+          i {
+            margin: 0 0.5rem 0 0;
+          }
+
+          a {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: $black;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      #well {
+        .list-group-item {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          .progress-bar:nth-child(2) {
+            margin: 0 0 1.5rem 0;
+          }
+        }
+      }
+    }
+    &__right {
+      .card {
+        .card-header {
+          h5 {
+            margin: 0 0;
+          }
+        }
+        .cardTopContent {
+          .row {
+            &__leftContent,
+            &__rightContent {
+              display: flex;
+              padding: 0 0 0 0;
+              .content {
+                .list-group {
+                  .list-group-item {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    h2 {
+                      i {
+                        margin: 0 1rem 0 0;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

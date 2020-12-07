@@ -1,0 +1,11 @@
+.main {
+  .dashboard-header {
+    .content {
+        padding: 1em;
+      .right-content {
+        display: grid;
+        place-items: center;
+      }
+    }
+  }
+}

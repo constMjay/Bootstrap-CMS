@@ -1,0 +1,26 @@
+@import "../../bootstrap/scss/bootstrap.scss";
+header {
+  .navbar {
+    .navbar-toggler {
+      border: none;
+      border-color: none;
+      .line {
+        width: 27px;
+        height: 3px;
+        margin: 0 0 3px 0;
+        background-color: $white;
+        transition: transform 0.2s ease-in;
+        &:nth-child(1).active {
+          transform: rotate(-45deg);
+        }
+        &:nth-child(2).active {
+          display: none;
+        }
+        &:nth-child(3).active {
+          transform: rotate(45deg);
+          margin: 0;
+        }
+      }
+    }
+  }
+}

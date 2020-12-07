@@ -1,0 +1,11 @@
+@import "./abstracts/variables";
+@import "./base/config";
+
+/* Sass Layout Components */
+@import "./layouts/reactFragment";
+@import "./layouts/navbar";
+@import "./layouts/dashboardHeader";
+@import "./layouts/dashboardMain";
+@import "./layouts/footer";
+/* Sass Bootstrap Custom */
+@import "../bootstrap/scss/bootstrap.scss";

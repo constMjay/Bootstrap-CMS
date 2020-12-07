@@ -1,0 +1,15 @@
+@import "../abstracts/variables";
+
+body {
+  background-color: $body-bg;
+}
+
+// Color System Custom
+$dark: #343a40;
+
+/* Customise List Group Bg */
+$list-group-active-bg: $dark;
+
+/* Customise Progress Bar Bg */
+$progress-bar-bg: $dark;
+@import "../../bootstrap/scss/bootstrap.scss";
